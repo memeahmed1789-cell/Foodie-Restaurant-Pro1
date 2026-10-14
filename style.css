@@ -567,7 +567,6 @@ main, .hero, .hero-content{
   background: #1d4ed8;
 }
 
-/* Animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -594,6 +593,7 @@ main, .hero, .hero-content{
     transform: translateX(0);
   }
 }
+
 .Contact-btn {
     background-color: #2563eb;
     color: white;
@@ -608,7 +608,7 @@ main, .hero, .hero-content{
    .text{
       display: flex;
       flex-direction: column;
-      padding-top: 20px; /* 140px كتير جدا هيبوظ شكل الفون */
+      padding-top: 20px;
     }
     .hero-content{
       display: flex;
@@ -626,7 +626,7 @@ main, .hero, .hero-content{
   .hero-content{
     display: flex;
     flex-direction: column;
-    padding-top: 20px; 
+    padding-top: 20px;
     gap: 20px;
   }
   .text{
@@ -640,14 +640,13 @@ main, .hero, .hero-content{
   }
 }
 
-@keyframes fadeInUP{
+@keyframes fadeInUp {
     from{
-     transform: translateY(40px);
+      transform: translateY(40px);
       opacity: 0;
     }
     to {
-       transform: translateY(0);
-        opacity: 1; /* كانت 100% */
+      transform: translateY(0);
+      opacity: 1;
     }
 }
-
